@@ -1,0 +1,19 @@
+{
+  "name": "assignment1-1122131",
+  "version": "1.0.0",
+  "description": "assignment1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uhi22018990/assignment1-1122131.git"
+  },
+  "author": "22018990",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uhi22018990/assignment1-1122131/issues"
+  },
+  "homepage": "https://github.com/uhi22018990/assignment1-1122131#readme"
+}
