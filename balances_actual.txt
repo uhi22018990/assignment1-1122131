@@ -1,4 +1,4 @@
-52994
+52892
 [[1,[{
   "targetChange": {
     "targetChangeType": "ADD",
@@ -15,12 +15,234 @@
         "balances": {
           "mapValue": {
             "fields": {
+              "orderofquestions": {
+                "integerValue": "99"
+              },
+              "hint": {
+                "mapValue": {
+                  "fields": {
+                    "video": {
+                      "arrayValue": {
+                        "values": [
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "link": {
+                                  "stringValue": "overall"
+                                },
+                                "title": {
+                                  "stringValue": "problem_s"
+                                },
+                                "image": {
+                                  "stringValue": "problem_s.png"
+                                },
+                                "type": {
+                                  "stringValue": "general"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "title": {
+                                  "stringValue": "spec_strat_balan_s"
+                                },
+                                "link": {
+                                  "stringValue": "overall"
+                                },
+                                "type": {
+                                  "stringValue": "specific"
+                                },
+                                "image": {
+                                  "stringValue": "spec_strat_balan_s.png"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "link": {
+                                  "stringValue": "moments"
+                                },
+                                "type": {
+                                  "stringValue": "general"
+                                },
+                                "title": {
+                                  "stringValue": "mom_s"
+                                },
+                                "image": {
+                                  "stringValue": "mom_s.png"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "link": {
+                                  "stringValue": "moments"
+                                },
+                                "title": {
+                                  "stringValue": "spec_mom_s"
+                                },
+                                "image": {
+                                  "stringValue": "spec_mom_s.png"
+                                },
+                                "type": {
+                                  "stringValue": "specific"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "link": {
+                                  "stringValue": "gravity"
+                                },
+                                "image": {
+                                  "stringValue": "gravity_s.png"
+                                },
+                                "type": {
+                                  "stringValue": "general"
+                                },
+                                "title": {
+                                  "stringValue": "gravity_s"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "title": {
+                                  "stringValue": "spec_gravity_s"
+                                },
+                                "link": {
+                                  "stringValue": "gravity"
+                                },
+                                "image": {
+                                  "stringValue": "spec_gravity_s.png"
+                                },
+                                "type": {
+                                  "stringValue": "specific"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "titleColumn": {
+                      "arrayValue": {
+                        "values": [
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "linkTitle": {
+                                  "stringValue": "hints"
+                                },
+                                "columnTitle": {
+                                  "stringValue": "Hints"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "linkTitle": {
+                                  "stringValue": "general"
+                                },
+                                "columnTitle": {
+                                  "stringValue": "General"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "linkTitle": {
+                                  "stringValue": "specific"
+                                },
+                                "columnTitle": {
+                                  "stringValue": "Specific to this problem"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "title": {
+                      "arrayValue": {
+                        "values": [
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "rowTitle": {
+                                  "stringValue": "Overall solution strategy"
+                                },
+                                "linkTitle": {
+                                  "stringValue": "overall"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "linkTitle": {
+                                  "stringValue": "moments"
+                                },
+                                "rowTitle": {
+                                  "stringValue": "Moments"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "mapValue": {
+                              "fields": {
+                                "rowTitle": {
+                                  "stringValue": "Gravity"
+                                },
+                                "linkTitle": {
+                                  "stringValue": "gravity"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
               "questions": {
                 "mapValue": {
                   "fields": {
+                    "title": {
+                      "stringValue": "Balances"
+                    },
                     "fullquestion": {
                       "mapValue": {
                         "fields": {
+                          "toastCorrect": {
+                            "mapValue": {
+                              "fields": {
+                                "left": {
+                                  "integerValue": "445"
+                                },
+                                "top": {
+                                  "integerValue": "320"
+                                }
+                              }
+                            }
+                          },
                           "buttonCheck": {
                             "mapValue": {
                               "fields": {
@@ -33,62 +255,26 @@
                               }
                             }
                           },
-                          "buttonContinue": {
-                            "mapValue": {
-                              "fields": {
-                                "left": {
-                                  "integerValue": "445"
-                                },
-                                "top": {
-                                  "integerValue": "380"
-                                }
-                              }
-                            }
+                          "image": {
+                            "stringValue": "https://firebasestorage.googleapis.com/v0/b/iwtse-1928f.appspot.com/o/balances.png?alt=media&token=dd2d8d20-7257-4ec2-985a-33dd38939e9b"
                           },
                           "answertype": {
                             "stringValue": "radio"
                           },
-                          "toastIncorrect": {
+                          "buttonContinue": {
                             "mapValue": {
                               "fields": {
                                 "top": {
-                                  "integerValue": "320"
+                                  "integerValue": "380"
                                 },
                                 "left": {
                                   "integerValue": "445"
                                 }
                               }
                             }
-                          },
-                          "image": {
-                            "stringValue": "https://firebasestorage.googleapis.com/v0/b/iwtse-1928f.appspot.com/o/balances.png?alt=media&token=dd2d8d20-7257-4ec2-985a-33dd38939e9b"
                           },
                           "question": {
                             "stringValue": "Three balances are supported on rigid pivots and connected by two flexible light strings as shown in the diagram above.  Note that the centre balance operates upside down compared to the other two. What value of mass X will enable the system to balance?"
-                          },
-                          "buttonRetry": {
-                            "mapValue": {
-                              "fields": {
-                                "top": {
-                                  "integerValue": "350"
-                                },
-                                "left": {
-                                  "integerValue": "445"
-                                }
-                              }
-                            }
-                          },
-                          "toastCorrect": {
-                            "mapValue": {
-                              "fields": {
-                                "top": {
-                                  "integerValue": "320"
-                                },
-                                "left": {
-                                  "integerValue": "445"
-                                }
-                              }
-                            }
                           },
                           "answer": {
                             "arrayValue": {
@@ -96,20 +282,14 @@
                                 {
                                   "mapValue": {
                                     "fields": {
+                                      "height": {
+                                        "integerValue": "100"
+                                      },
                                       "top": {
                                         "integerValue": "30"
                                       },
-                                      "left": {
-                                        "integerValue": "0"
-                                      },
-                                      "correct": {
-                                        "booleanValue": false
-                                      },
                                       "width": {
                                         "integerValue": "220"
-                                      },
-                                      "align": {
-                                        "stringValue": "center"
                                       },
                                       "textpadding": {
                                         "integerValue": "-15"
@@ -117,8 +297,14 @@
                                       "text": {
                                         "stringValue": "\\[ 10 \\mbox{ kg.} \\]"
                                       },
-                                      "height": {
-                                        "integerValue": "100"
+                                      "align": {
+                                        "stringValue": "center"
+                                      },
+                                      "left": {
+                                        "integerValue": "0"
+                                      },
+                                      "correct": {
+                                        "booleanValue": false
                                       }
                                     }
                                   }
@@ -126,11 +312,11 @@
                                 {
                                   "mapValue": {
                                     "fields": {
+                                      "textpadding": {
+                                        "integerValue": "-15"
+                                      },
                                       "height": {
                                         "integerValue": "100"
-                                      },
-                                      "width": {
-                                        "integerValue": "220"
                                       },
                                       "align": {
                                         "stringValue": "center"
@@ -141,14 +327,14 @@
                                       "top": {
                                         "integerValue": "100"
                                       },
-                                      "left": {
-                                        "integerValue": "0"
+                                      "width": {
+                                        "integerValue": "220"
                                       },
                                       "correct": {
                                         "booleanValue": false
                                       },
-                                      "textpadding": {
-                                        "integerValue": "-15"
+                                      "left": {
+                                        "integerValue": "0"
                                       }
                                     }
                                   }
@@ -156,9 +342,6 @@
                                 {
                                   "mapValue": {
                                     "fields": {
-                                      "textpadding": {
-                                        "integerValue": "-15"
-                                      },
                                       "width": {
                                         "integerValue": "220"
                                       },
@@ -170,13 +353,16 @@
                                       },
                                       "correct": {
                                         "booleanValue": false
-                                      },
-                                      "top": {
-                                        "integerValue": "170"
                                       },
                                       "text": {
                                         "stringValue": "\\[ 1\\frac{17}{28} \\mbox{ kg.} \\]"
                                       },
+                                      "textpadding": {
+                                        "integerValue": "-15"
+                                      },
+                                      "top": {
+                                        "integerValue": "170"
+                                      },
                                       "height": {
                                         "integerValue": "100"
                                       }
@@ -186,17 +372,14 @@
                                 {
                                   "mapValue": {
                                     "fields": {
-                                      "top": {
-                                        "integerValue": "240"
+                                      "height": {
+                                        "integerValue": "100"
+                                      },
+                                      "text": {
+                                        "stringValue": "\\[ 62\\frac{2}{9} \\mbox{ kg.} \\]"
                                       },
                                       "left": {
                                         "integerValue": "0"
-                                      },
-                                      "correct": {
-                                        "booleanValue": true
-                                      },
-                                      "height": {
-                                        "integerValue": "100"
                                       },
                                       "textpadding": {
                                         "integerValue": "-15"
@@ -204,8 +387,11 @@
                                       "align": {
                                         "stringValue": "center"
                                       },
-                                      "text": {
-                                        "stringValue": "\\[ 62\\frac{2}{9} \\mbox{ kg.} \\]"
+                                      "top": {
+                                        "integerValue": "240"
+                                      },
+                                      "correct": {
+                                        "booleanValue": true
                                       },
                                       "width": {
                                         "integerValue": "220"
@@ -216,102 +402,72 @@
                                 {
                                   "mapValue": {
                                     "fields": {
-                                      "text": {
-                                        "stringValue": "None of the above."
-                                      },
-                                      "textpadding": {
-                                        "integerValue": "10"
+                                      "correct": {
+                                        "booleanValue": false
                                       },
                                       "align": {
                                         "stringValue": "center"
                                       },
-                                      "left": {
-                                        "integerValue": "0"
+                                      "text": {
+                                        "stringValue": "None of the above."
                                       },
-                                      "correct": {
-                                        "booleanValue": false
+                                      "height": {
+                                        "integerValue": "100"
                                       },
                                       "width": {
                                         "integerValue": "220"
                                       },
+                                      "left": {
+                                        "integerValue": "0"
+                                      },
                                       "top": {
                                         "integerValue": "310"
                                       },
-                                      "height": {
-                                        "integerValue": "100"
+                                      "textpadding": {
+                                        "integerValue": "10"
                                       }
                                     }
                                   }
                                 }
                               ]
                             }
+                          },
+                          "toastIncorrect": {
+                            "mapValue": {
+                              "fields": {
+                                "left": {
+                                  "integerValue": "445"
+                                },
+                                "top": {
+                                  "integerValue": "320"
+                                }
+                              }
+                            }
+                          },
+                          "buttonRetry": {
+                            "mapValue": {
+                              "fields": {
+                                "left": {
+                                  "integerValue": "445"
+                                },
+                                "top": {
+                                  "integerValue": "350"
+                                }
+                              }
+                            }
                           }
                         }
                       }
-                    },
-                    "title": {
-                      "stringValue": "Balances"
                     }
                   }
                 }
               },
+              "idcourse": {
+                "integerValue": "3"
+              },
               "videoData": {
                 "mapValue": {
                   "fields": {
-                    "problem_s": {
-                      "mapValue": {
-                        "fields": {
-                          "questions": {
-                            "mapValue": {}
-                          },
-                          "indexes": {
-                            "mapValue": {
-                              "fields": {
-                                "question": {
-                                  "arrayValue": {}
-                                },
-                                "slide": {
-                                  "arrayValue": {}
-                                },
-                                "numberOfSlides": {
-                                  "integerValue": "1143"
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "spec_gravity_s": {
-                      "mapValue": {
-                        "fields": {
-                          "questions": {
-                            "mapValue": {}
-                          },
-                          "indexes": {
-                            "mapValue": {
-                              "fields": {
-                                "numberOfSlides": {
-                                  "integerValue": "1024"
-                                },
-                                "slide": {
-                                  "arrayValue": {
-                                    "values": [
-                                      {
-                                        "integerValue": "0"
-                                      }
-                                    ]
-                                  }
-                                },
-                                "question": {
-                                  "arrayValue": {}
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
                     "mom_s": {
                       "mapValue": {
                         "fields": {
@@ -321,16 +477,100 @@
                                 "house": {
                                   "mapValue": {
                                     "fields": {
-                                      "buttonRetry": {
+                                      "buttonContinue": {
                                         "mapValue": {
                                           "fields": {
-                                            "top": {
-                                              "integerValue": "400"
-                                            },
                                             "left": {
                                               "integerValue": "490"
+                                            },
+                                            "top": {
+                                              "integerValue": "360"
                                             }
                                           }
+                                        }
+                                      },
+                                      "toastIncorrect": {
+                                        "mapValue": {
+                                          "fields": {
+                                            "left": {
+                                              "integerValue": "490"
+                                            },
+                                            "top": {
+                                              "integerValue": "320"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "question": {
+                                        "stringValue": "Dummy string"
+                                      },
+                                      "iebackgroundimage": {
+                                        "stringValue": "mom_s_1.png"
+                                      },
+                                      "answer": {
+                                        "arrayValue": {
+                                          "values": [
+                                            {
+                                              "mapValue": {
+                                                "fields": {
+                                                  "correct": {
+                                                    "booleanValue": false
+                                                  },
+                                                  "left": {
+                                                    "integerValue": "120"
+                                                  },
+                                                  "top": {
+                                                    "integerValue": "285"
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "mapValue": {
+                                                "fields": {
+                                                  "left": {
+                                                    "integerValue": "255"
+                                                  },
+                                                  "correct": {
+                                                    "booleanValue": false
+                                                  },
+                                                  "top": {
+                                                    "integerValue": "285"
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "mapValue": {
+                                                "fields": {
+                                                  "correct": {
+                                                    "booleanValue": false
+                                                  },
+                                                  "top": {
+                                                    "integerValue": "285"
+                                                  },
+                                                  "left": {
+                                                    "integerValue": "380"
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "mapValue": {
+                                                "fields": {
+                                                  "correct": {
+                                                    "booleanValue": true
+                                                  },
+                                                  "left": {
+                                                    "integerValue": "520"
+                                                  },
+                                                  "top": {
+                                                    "integerValue": "285"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
                                         }
                                       },
                                       "buttonCheck": {
@@ -345,119 +585,35 @@
                                           }
                                         }
                                       },
-                                      "answer": {
-                                        "arrayValue": {
-                                          "values": [
-                                            {
-                                              "mapValue": {
-                                                "fields": {
-                                                  "top": {
-                                                    "integerValue": "285"
-                                                  },
-                                                  "left": {
-                                                    "integerValue": "120"
-                                                  },
-                                                  "correct": {
-                                                    "booleanValue": false
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            {
-                                              "mapValue": {
-                                                "fields": {
-                                                  "top": {
-                                                    "integerValue": "285"
-                                                  },
-                                                  "left": {
-                                                    "integerValue": "255"
-                                                  },
-                                                  "correct": {
-                                                    "booleanValue": false
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            {
-                                              "mapValue": {
-                                                "fields": {
-                                                  "left": {
-                                                    "integerValue": "380"
-                                                  },
-                                                  "correct": {
-                                                    "booleanValue": false
-                                                  },
-                                                  "top": {
-                                                    "integerValue": "285"
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            {
-                                              "mapValue": {
-                                                "fields": {
-                                                  "left": {
-                                                    "integerValue": "520"
-                                                  },
-                                                  "correct": {
-                                                    "booleanValue": true
-                                                  },
-                                                  "top": {
-                                                    "integerValue": "285"
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          ]
-                                        }
-                                      },
-                                      "toastIncorrect": {
-                                        "mapValue": {
-                                          "fields": {
-                                            "top": {
-                                              "integerValue": "320"
-                                            },
-                                            "left": {
-                                              "integerValue": "490"
-                                            }
-                                          }
-                                        }
+                                      "answertype": {
+                                        "stringValue": "radio"
                                       },
                                       "time": {
                                         "integerValue": "109"
                                       },
-                                      "buttonContinue": {
-                                        "mapValue": {
-                                          "fields": {
-                                            "top": {
-                                              "integerValue": "360"
-                                            },
-                                            "left": {
-                                              "integerValue": "490"
-                                            }
-                                          }
-                                        }
-                                      },
                                       "toastCorrect": {
                                         "mapValue": {
                                           "fields": {
-                                            "top": {
-                                              "integerValue": "320"
-                                            },
                                             "left": {
                                               "integerValue": "490"
+                                            },
+                                            "top": {
+                                              "integerValue": "320"
                                             }
                                           }
                                         }
                                       },
-                                      "answertype": {
-                                        "stringValue": "radio"
-                                      },
-                                      "question": {
-                                        "stringValue": "Dummy string"
-                                      },
-                                      "iebackgroundimage": {
-                                        "stringValue": "mom_s_1.png"
+                                      "buttonRetry": {
+                                        "mapValue": {
+                                          "fields": {
+                                            "left": {
+                                              "integerValue": "490"
+                                            },
+                                            "top": {
+                                              "integerValue": "400"
+                                            }
+                                          }
+                                        }
                                       }
                                     }
                                   }
@@ -504,18 +660,12 @@
                         }
                       }
                     },
-                    "spec_mom_s": {
+                    "spec_gravity_s": {
                       "mapValue": {
                         "fields": {
-                          "questions": {
-                            "mapValue": {}
-                          },
                           "indexes": {
                             "mapValue": {
                               "fields": {
-                                "numberOfSlides": {
-                                  "integerValue": "328"
-                                },
                                 "slide": {
                                   "arrayValue": {
                                     "values": [
@@ -527,9 +677,15 @@
                                 },
                                 "question": {
                                   "arrayValue": {}
+                                },
+                                "numberOfSlides": {
+                                  "integerValue": "1024"
                                 }
                               }
                             }
+                          },
+                          "questions": {
+                            "mapValue": {}
                           }
                         }
                       }
@@ -537,62 +693,17 @@
                     "gravity_s": {
                       "mapValue": {
                         "fields": {
-                          "indexes": {
-                            "mapValue": {
-                              "fields": {
-                                "slide": {
-                                  "arrayValue": {
-                                    "values": [
-                                      {
-                                        "integerValue": "0"
-                                      },
-                                      {
-                                        "integerValue": "102"
-                                      },
-                                      {
-                                        "integerValue": "171"
-                                      }
-                                    ]
-                                  }
-                                },
-                                "question": {
-                                  "arrayValue": {
-                                    "values": [
-                                      {
-                                        "integerValue": "102"
-                                      }
-                                    ]
-                                  }
-                                },
-                                "numberOfSlides": {
-                                  "integerValue": "5388"
-                                }
-                              }
-                            }
-                          },
                           "questions": {
                             "mapValue": {
                               "fields": {
                                 "house": {
                                   "mapValue": {
                                     "fields": {
-                                      "toastIncorrect": {
-                                        "mapValue": {
-                                          "fields": {
-                                            "left": {
-                                              "integerValue": "480"
-                                            },
-                                            "top": {
-                                              "integerValue": "280"
-                                            }
-                                          }
-                                        }
+                                      "question": {
+                                        "stringValue": "What type of term is \u003ctt\u003ehouse(Nationality, Pet, Smokes,  Drinks, Colour)\u003c/tt\u003e?"
                                       },
                                       "iebackgroundimage": {
                                         "stringValue": "gravity_s_1.png"
-                                      },
-                                      "time": {
-                                        "integerValue": "169"
                                       },
                                       "answer": {
                                         "arrayValue": {
@@ -600,14 +711,14 @@
                                             {
                                               "mapValue": {
                                                 "fields": {
-                                                  "left": {
-                                                    "integerValue": "90"
+                                                  "correct": {
+                                                    "booleanValue": false
                                                   },
                                                   "top": {
                                                     "integerValue": "403"
                                                   },
-                                                  "correct": {
-                                                    "booleanValue": false
+                                                  "left": {
+                                                    "integerValue": "90"
                                                   }
                                                 }
                                               }
@@ -617,12 +728,12 @@
                                                 "fields": {
                                                   "top": {
                                                     "integerValue": "403"
+                                                  },
+                                                  "correct": {
+                                                    "booleanValue": false
                                                   },
                                                   "left": {
                                                     "integerValue": "220"
-                                                  },
-                                                  "correct": {
-                                                    "booleanValue": false
                                                   }
                                                 }
                                               }
@@ -630,11 +741,11 @@
                                             {
                                               "mapValue": {
                                                 "fields": {
-                                                  "top": {
-                                                    "integerValue": "403"
-                                                  },
                                                   "left": {
                                                     "integerValue": "385"
+                                                  },
+                                                  "top": {
+                                                    "integerValue": "403"
                                                   },
                                                   "correct": {
                                                     "booleanValue": true
@@ -660,41 +771,14 @@
                                           ]
                                         }
                                       },
-                                      "buttonRetry": {
-                                        "mapValue": {
-                                          "fields": {
-                                            "top": {
-                                              "integerValue": "360"
-                                            },
-                                            "left": {
-                                              "integerValue": "480"
-                                            }
-                                          }
-                                        }
+                                      "time": {
+                                        "integerValue": "169"
                                       },
                                       "buttonContinue": {
                                         "mapValue": {
                                           "fields": {
-                                            "left": {
-                                              "integerValue": "480"
-                                            },
                                             "top": {
                                               "integerValue": "320"
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "answertype": {
-                                        "stringValue": "radio"
-                                      },
-                                      "question": {
-                                        "stringValue": "What type of term is \u003ctt\u003ehouse(Nationality, Pet, Smokes,  Drinks, Colour)\u003c/tt\u003e?"
-                                      },
-                                      "buttonCheck": {
-                                        "mapValue": {
-                                          "fields": {
-                                            "top": {
-                                              "integerValue": "360"
                                             },
                                             "left": {
                                               "integerValue": "480"
@@ -702,7 +786,7 @@
                                           }
                                         }
                                       },
-                                      "toastCorrect": {
+                                      "toastIncorrect": {
                                         "mapValue": {
                                           "fields": {
                                             "left": {
@@ -713,9 +797,105 @@
                                             }
                                           }
                                         }
+                                      },
+                                      "buttonRetry": {
+                                        "mapValue": {
+                                          "fields": {
+                                            "left": {
+                                              "integerValue": "480"
+                                            },
+                                            "top": {
+                                              "integerValue": "360"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "toastCorrect": {
+                                        "mapValue": {
+                                          "fields": {
+                                            "top": {
+                                              "integerValue": "280"
+                                            },
+                                            "left": {
+                                              "integerValue": "480"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "answertype": {
+                                        "stringValue": "radio"
+                                      },
+                                      "buttonCheck": {
+                                        "mapValue": {
+                                          "fields": {
+                                            "left": {
+                                              "integerValue": "480"
+                                            },
+                                            "top": {
+                                              "integerValue": "360"
+                                            }
+                                          }
+                                        }
                                       }
                                     }
                                   }
+                                }
+                              }
+                            }
+                          },
+                          "indexes": {
+                            "mapValue": {
+                              "fields": {
+                                "slide": {
+                                  "arrayValue": {
+                                    "values": [
+                                      {
+                                        "integerValue": "0"
+                                      },
+                                      {
+                                        "integerValue": "102"
+                                      },
+                                      {
+                                        "integerValue": "171"
+                                      }
+                                    ]
+                                  }
+                                },
+                                "numberOfSlides": {
+                                  "integerValue": "5388"
+                                },
+                                "question": {
+                                  "arrayValue": {
+                                    "values": [
+                                      {
+                                        "integerValue": "102"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "problem_s": {
+                      "mapValue": {
+                        "fields": {
+                          "questions": {
+                            "mapValue": {}
+                          },
+                          "indexes": {
+                            "mapValue": {
+                              "fields": {
+                                "slide": {
+                                  "arrayValue": {}
+                                },
+                                "question": {
+                                  "arrayValue": {}
+                                },
+                                "numberOfSlides": {
+                                  "integerValue": "1143"
                                 }
                               }
                             }
@@ -765,6 +945,36 @@
                                 "house": {
                                   "mapValue": {
                                     "fields": {
+                                      "time": {
+                                        "doubleValue": 55.5
+                                      },
+                                      "buttonRetry": {
+                                        "mapValue": {
+                                          "fields": {
+                                            "left": {
+                                              "integerValue": "490"
+                                            },
+                                            "top": {
+                                              "integerValue": "360"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "toastCorrect": {
+                                        "mapValue": {
+                                          "fields": {
+                                            "left": {
+                                              "integerValue": "490"
+                                            },
+                                            "top": {
+                                              "integerValue": "280"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "answertype": {
+                                        "stringValue": "radio"
+                                      },
                                       "buttonCheck": {
                                         "mapValue": {
                                           "fields": {
@@ -777,65 +987,11 @@
                                           }
                                         }
                                       },
-                                      "buttonContinue": {
-                                        "mapValue": {
-                                          "fields": {
-                                            "top": {
-                                              "integerValue": "320"
-                                            },
-                                            "left": {
-                                              "integerValue": "490"
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "buttonRetry": {
-                                        "mapValue": {
-                                          "fields": {
-                                            "top": {
-                                              "integerValue": "360"
-                                            },
-                                            "left": {
-                                              "integerValue": "490"
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "toastCorrect": {
-                                        "mapValue": {
-                                          "fields": {
-                                            "top": {
-                                              "integerValue": "280"
-                                            },
-                                            "left": {
-                                              "integerValue": "490"
-                                            }
-                                          }
-                                        }
-                                      },
                                       "iebackgroundimage": {
                                         "stringValue": "spec_strat_balan_s_1.png"
                                       },
                                       "question": {
                                         "stringValue": "Dummy string"
-                                      },
-                                      "toastIncorrect": {
-                                        "mapValue": {
-                                          "fields": {
-                                            "top": {
-                                              "integerValue": "280"
-                                            },
-                                            "left": {
-                                              "integerValue": "490"
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "time": {
-                                        "doubleValue": 55.5
-                                      },
-                                      "answertype": {
-                                        "stringValue": "radio"
                                       },
                                       "answer": {
                                         "arrayValue": {
@@ -858,11 +1014,11 @@
                                             {
                                               "mapValue": {
                                                 "fields": {
-                                                  "top": {
-                                                    "integerValue": "425"
-                                                  },
                                                   "left": {
                                                     "integerValue": "210"
+                                                  },
+                                                  "top": {
+                                                    "integerValue": "425"
                                                   },
                                                   "correct": {
                                                     "booleanValue": false
@@ -873,14 +1029,14 @@
                                             {
                                               "mapValue": {
                                                 "fields": {
+                                                  "top": {
+                                                    "integerValue": "425"
+                                                  },
                                                   "left": {
                                                     "integerValue": "350"
                                                   },
                                                   "correct": {
                                                     "booleanValue": false
-                                                  },
-                                                  "top": {
-                                                    "integerValue": "425"
                                                   }
                                                 }
                                               }
@@ -888,19 +1044,43 @@
                                             {
                                               "mapValue": {
                                                 "fields": {
-                                                  "top": {
-                                                    "integerValue": "425"
-                                                  },
                                                   "correct": {
                                                     "booleanValue": false
                                                   },
                                                   "left": {
                                                     "integerValue": "505"
+                                                  },
+                                                  "top": {
+                                                    "integerValue": "425"
                                                   }
                                                 }
                                               }
                                             }
                                           ]
+                                        }
+                                      },
+                                      "buttonContinue": {
+                                        "mapValue": {
+                                          "fields": {
+                                            "left": {
+                                              "integerValue": "490"
+                                            },
+                                            "top": {
+                                              "integerValue": "320"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "toastIncorrect": {
+                                        "mapValue": {
+                                          "fields": {
+                                            "top": {
+                                              "integerValue": "280"
+                                            },
+                                            "left": {
+                                              "integerValue": "490"
+                                            }
+                                          }
                                         }
                                       }
                                     }
@@ -911,219 +1091,39 @@
                           }
                         }
                       }
-                    }
-                  }
-                }
-              },
-              "hint": {
-                "mapValue": {
-                  "fields": {
-                    "titleColumn": {
-                      "arrayValue": {
-                        "values": [
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "linkTitle": {
-                                  "stringValue": "hints"
-                                },
-                                "columnTitle": {
-                                  "stringValue": "Hints"
-                                }
-                              }
-                            }
-                          },
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "linkTitle": {
-                                  "stringValue": "general"
-                                },
-                                "columnTitle": {
-                                  "stringValue": "General"
-                                }
-                              }
-                            }
-                          },
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "linkTitle": {
-                                  "stringValue": "specific"
-                                },
-                                "columnTitle": {
-                                  "stringValue": "Specific to this problem"
-                                }
-                              }
-                            }
-                          }
-                        ]
-                      }
                     },
-                    "video": {
-                      "arrayValue": {
-                        "values": [
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "type": {
-                                  "stringValue": "general"
-                                },
-                                "title": {
-                                  "stringValue": "problem_s"
-                                },
-                                "link": {
-                                  "stringValue": "overall"
-                                },
-                                "image": {
-                                  "stringValue": "problem_s.png"
-                                }
-                              }
-                            }
+                    "spec_mom_s": {
+                      "mapValue": {
+                        "fields": {
+                          "questions": {
+                            "mapValue": {}
                           },
-                          {
+                          "indexes": {
                             "mapValue": {
                               "fields": {
-                                "link": {
-                                  "stringValue": "overall"
+                                "question": {
+                                  "arrayValue": {}
                                 },
-                                "title": {
-                                  "stringValue": "spec_strat_balan_s"
+                                "numberOfSlides": {
+                                  "integerValue": "328"
                                 },
-                                "image": {
-                                  "stringValue": "spec_strat_balan_s.png"
-                                },
-                                "type": {
-                                  "stringValue": "specific"
-                                }
-                              }
-                            }
-                          },
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "title": {
-                                  "stringValue": "mom_s"
-                                },
-                                "link": {
-                                  "stringValue": "moments"
-                                },
-                                "type": {
-                                  "stringValue": "general"
-                                },
-                                "image": {
-                                  "stringValue": "mom_s.png"
-                                }
-                              }
-                            }
-                          },
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "title": {
-                                  "stringValue": "spec_mom_s"
-                                },
-                                "image": {
-                                  "stringValue": "spec_mom_s.png"
-                                },
-                                "link": {
-                                  "stringValue": "moments"
-                                },
-                                "type": {
-                                  "stringValue": "specific"
-                                }
-                              }
-                            }
-                          },
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "type": {
-                                  "stringValue": "general"
-                                },
-                                "title": {
-                                  "stringValue": "gravity_s"
-                                },
-                                "image": {
-                                  "stringValue": "gravity_s.png"
-                                },
-                                "link": {
-                                  "stringValue": "gravity"
-                                }
-                              }
-                            }
-                          },
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "image": {
-                                  "stringValue": "spec_gravity_s.png"
-                                },
-                                "type": {
-                                  "stringValue": "specific"
-                                },
-                                "title": {
-                                  "stringValue": "spec_gravity_s"
-                                },
-                                "link": {
-                                  "stringValue": "gravity"
+                                "slide": {
+                                  "arrayValue": {
+                                    "values": [
+                                      {
+                                        "integerValue": "0"
+                                      }
+                                    ]
+                                  }
                                 }
                               }
                             }
                           }
-                        ]
-                      }
-                    },
-                    "title": {
-                      "arrayValue": {
-                        "values": [
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "rowTitle": {
-                                  "stringValue": "Overall solution strategy"
-                                },
-                                "linkTitle": {
-                                  "stringValue": "overall"
-                                }
-                              }
-                            }
-                          },
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "rowTitle": {
-                                  "stringValue": "Moments"
-                                },
-                                "linkTitle": {
-                                  "stringValue": "moments"
-                                }
-                              }
-                            }
-                          },
-                          {
-                            "mapValue": {
-                              "fields": {
-                                "linkTitle": {
-                                  "stringValue": "gravity"
-                                },
-                                "rowTitle": {
-                                  "stringValue": "Gravity"
-                                }
-                              }
-                            }
-                          }
-                        ]
+                        }
                       }
                     }
                   }
                 }
-              },
-              "orderofquestions": {
-                "integerValue": "99"
-              },
-              "idcourse": {
-                "integerValue": "3"
               }
             }
           }
@@ -1143,17 +1143,25 @@
     "targetIds": [
       2
     ],
-    "resumeToken": "CgkIpoHc3IbU/QI=",
-    "readTime": "2023-03-11T14:09:03.811750Z"
+    "resumeToken": "CgkIz6zK2cXThQM=",
+    "readTime": "2024-04-21T14:44:21.015119Z"
   }
 }
 ]],[4,[{
   "targetChange": {
-    "resumeToken": "CgkIpoHc3IbU/QI=",
-    "readTime": "2023-03-11T14:09:03.811750Z"
+    "resumeToken": "CgkIz6zK2cXThQM=",
+    "readTime": "2024-04-21T14:44:21.015119Z"
   }
 }
-]],[5,[{
+]]]121
+[[5,[{
+  "targetChange": {
+    "resumeToken": "CgkIsKDO2cXThQM=",
+    "readTime": "2024-04-21T14:44:21.079088Z"
+  }
+}
+]]]103
+[[6,[{
   "targetChange": {
     "targetChangeType": "REMOVE",
     "targetIds": [
@@ -1162,5 +1170,5 @@
   }
 }
 ]]]14
-[[6,["noop"]]]14
-[[7,["noop"]]]
+[[7,["noop"]]]14
+[[8,["noop"]]]
